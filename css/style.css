@@ -334,7 +334,7 @@
     .navbar-nav{
         position: absolute;
         width: 200px;
-        height: 667px;
+        height: 100vh;
         right: 0px;
         top: 0px;
         align-items: flex-start;
@@ -366,7 +366,7 @@
         letter-spacing: 2.7px;
     }
     .title-home span{
-        font-size: 6.8rem;
+        font-size: 4rem;
     }
     .explorer{
         width: 150px;
@@ -535,7 +535,7 @@
 }
 
 /* TABLET =========================================== */
-@media (min-width: 377px) and (max-width: 768px) {
+@media (min-width: 377px) and (max-width: 769px) {
     /* HOME ===================================================== */
     .background-home{
         background-image: url('../assets/home/background-home-tablet.jpg');
@@ -587,7 +587,7 @@
     }
     
     .title-home span{
-        font-size: 5rem;
+        font-size: 8rem;
     }
     
     .paragraph-home{
@@ -681,6 +681,7 @@
     .background-tec{
         background-image: url('../assets/technology/background-technology-tablet.jpg');
     }
+
     #image2{
         width: 100%;
         height: 310px;
