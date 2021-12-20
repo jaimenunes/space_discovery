@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/used-html5-css3-javascript-bootstrap-SQDEEJYwv)
+- Live Site URL: [live site URL](https://space-discovery.vercel.app/technology.html)
 
 ## My process
 
@@ -48,22 +48,11 @@ Users should be able to:
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+Was the first time that I used JSON file to get the data and put into the HTML file using javascript.
+
+Was a great opportunity to learn more about how to work with this kind of files.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@jaimenunes](https://www.frontendmentor.io/profile/jaimenunes)
+- Twitter - [@jaimenunesleal](https://twitter.com/jaimenunesleal)
