@@ -549,12 +549,22 @@
     }
 
     .navbar-nav{
-        justify-content: center;
+        position: absolute;
+        width: 300px;
+        height: 100vh;
+        right: 0px;
+        top: 0px;
         align-items: center;
-        width: 60%;
-        height: 4rem;
+        justify-content: start;
+        z-index: 999;
         background: rgba(255, 255, 255, 0.04);
-        backdrop-filter: blur(81.5485px);
+        backdrop-filter: blur(81.5485px)
+    }
+
+    .closeMenu{
+        align-self: flex-end;
+        margin-top: 0vh;
+        margin-right: 10%;
     }
     
     .nav-link{
@@ -562,8 +572,11 @@
         font-weight: normal;
         font-size: .8rem;
         line-height: 17px;
-        /* identical to box height */
-        letter-spacing: 2.3625px;
+        margin-left: 10%;
+        letter-spacing: 2px;
+        font-size: 1rem;
+        height: 5%;
+        
     }
     .nav-link span{
         display: none;
@@ -574,7 +587,7 @@
     }
     
     .title-home span{
-        font-size: 8rem;
+        font-size: 5rem;
     }
     
     .paragraph-home{
@@ -594,6 +607,10 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
+    }
+    .explorer{
+        width: 170px;
+        height: 170px;
     }
 
 /* DESTINATION ================================= */
@@ -633,6 +650,10 @@
         width: 457px;
         height: 572px;
     }
+    .crew-image{
+        display: flex;
+        justify-content: center;
+    }
     .crew-title{
         font-size: 2.2rem;
         line-height: 46px;
@@ -660,6 +681,10 @@
     .background-tec{
         background-image: url('../assets/technology/background-technology-tablet.jpg');
     }
+    #image2{
+        width: 100%;
+        height: 310px;
+    }
     
     .circle{
         margin-left: 10%;
@@ -684,8 +709,6 @@
         text-align: center;
     }
     #tec-image-tablet{
-        width: 768px;
-        height: 310px;
         display: inline;
     }
     
